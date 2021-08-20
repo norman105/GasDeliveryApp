@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="208dp"
+    tools:layout_editor_absoluteY="110dp">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:background="#1B1919"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Select Your Cylinder Type"
+        android:textColor="#F6F2F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F4F4"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+        <ImageButton
+            android:id="@+id/kgas"
+            android:layout_width="134dp"
+            android:layout_height="205dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/kgas" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="K-Gas
+                          6kgs@sh1500
+                          11kgs@sh2000
+                          18ks@sh2500
+                          45kgs@sh4000"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#F8F9FA"
+        app:layout_constraintEnd_toEndOf="@id/l1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l1">
+        <ImageButton
+            android:id="@+id/has"
+            android:layout_width="134dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/afrigas" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Hass Gas
+                          6kgs@sh1500
+                          11kgs@sh2000
+                          18ks@sh2500
+                          45kgs@sh4000"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#F8FBFD"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/l2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l2">
+        <ImageButton
+            android:id="@+id/blue"
+            android:layout_width="134dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/blue" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginTop="40dp"
+            android:text="Blue-Gas
+                          6kgs@sh1500
+                          11kgs@sh2000
+                          18ks@sh2500
+                          45kgs@sh4000"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#F5F7F8"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/l3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l3">
+        <ImageButton
+            android:id="@+id/total"
+            android:layout_width="134dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/ttotal" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Total Gas
+                          6kgs@sh1500
+                          11kgs@sh2000
+                          18ks@sh2500
+                          45kgs@sh4000"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

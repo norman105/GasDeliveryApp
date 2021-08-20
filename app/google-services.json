@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "720148064901",
+    "project_id": "gas-delivary-ap",
+    "storage_bucket": "gas-delivary-ap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720148064901:android:7f1fba6ac1c05e598057ec",
+        "android_client_info": {
+          "package_name": "com.example.gasdelivaryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720148064901-bd4obkv2sebl074mkj1al9ef361pfmrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZxjOf9aaWbgBCR1Fpkc0lVOie6N6JabY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720148064901-bd4obkv2sebl074mkj1al9ef361pfmrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

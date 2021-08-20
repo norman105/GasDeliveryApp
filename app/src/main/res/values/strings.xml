@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gas Delivary App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="selected_item">Selected item:</string>
+    <string-array name="Estate">
+        <item>Westlands</item>
+        <item>Paklands</item>
+        <item>Karen</item>
+        <item>Runda</item>
+        <item>Kileleshwa</item>
+
+
+    </string-array>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="open" />
+    <string name="close" />
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="menu"
+        />
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="login"/>
+    <item
+         android:id="@+id/nav_sign_out"
+         android:icon="@drawable/ic_dashboard_black_24dp"
+         android:title="sigout"
+        />
+   <item
+       android:id="@+id/nav_about"
+       android:icon="@drawable/ic_baseline_help_center_24"
+       android:title="help"/>
+
+</menu>
+

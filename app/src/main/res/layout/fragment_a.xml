@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentA">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/gas" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_marginStart="-59dp"
+        android:layout_marginLeft="-59dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="-51dp"
+        android:layout_marginRight="-51dp"
+        android:autoSizeMaxTextSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:padding="20dp"
+        android:text="Free Delivary within 5minutes"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Skip1"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginRight="119dp"
+        android:background="#fff"
+        android:fontFamily="sans-serif-black"
+        android:padding="20dp"
+        android:text="Skip"
+        android:textColor="#000" />
+
+
+</RelativeLayout>
